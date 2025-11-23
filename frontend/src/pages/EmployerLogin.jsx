@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { AuthContext } from '/src/contexts/AuthContext.jsx';
 
 export default function EmployerLogin() {
-  const API_URL = 'http://localhost:5000/api';
+  const API_URL = 'https://jobportalbackend-kpg7.onrender.com/api';
   const [phone, setPhone] = useState('');
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
