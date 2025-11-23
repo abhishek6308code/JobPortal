@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { AuthContext, AuthProvider } from "/src/contexts/AuthContext.jsx";
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://jobportalbackend-kpg7.onrender.com/api';
 function PostJobForm() {
   const [message, setMessage] = useState('');
   const { token } = React.useContext(AuthContext);
