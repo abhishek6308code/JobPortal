@@ -1,6 +1,6 @@
 // src/AdminSignup.jsx
 import React, { useState } from 'react';
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://jobportalbackend-kpg7.onrender.com/api';
 
 export default function AdminSignup() {
     const [form, setForm] = useState({ name: '', email: '', phone: '', password: '' });
