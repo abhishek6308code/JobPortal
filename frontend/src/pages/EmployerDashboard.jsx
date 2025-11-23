@@ -7,8 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { AuthContext } from '/src/contexts/AuthContext.jsx';
 import io from 'socket.io-client';
 
-const API_URL = 'http://localhost:5000/api';
-const SOCKET_BASE = 'http://localhost:5000'; // <-- fixed (no /api)
+const API_URL = 'https://jobportalbackend-kpg7.onrender.com/api';
+const SOCKET_BASE = 'https://jobportalbackend-kpg7.onrender.com/api'; // <-- fixed (no /api)
 
 export default function EmployerDashboard() {
   const [message, setMessage] = useState('');
