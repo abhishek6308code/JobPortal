@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 
 
-export default function JobApplyModal({ show, job, onClose, onSuccess, apiBase = 'http://localhost:5000/api' }) {
+export default function JobApplyModal({ show, job, onClose, onSuccess, apiBase = 'https://jobportalbackend-kpg7.onrender.com/api' }) {
   const emptyForm = {
     applicantName: '',
     phone: '',
