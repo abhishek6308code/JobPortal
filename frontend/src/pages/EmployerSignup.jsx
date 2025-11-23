@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function EmployerSignup() {
-    const API_URL = 'http://localhost:5000/api';
+    const API_URL = 'https://jobportalbackend-kpg7.onrender.com/api';
   const [formData, setFormData] = useState({
     companyName: '', ownerName: '', workingSector: '', address: '',
     contactNo: '', contactNoConfirm: '', email: '', emailConfirm: '',
