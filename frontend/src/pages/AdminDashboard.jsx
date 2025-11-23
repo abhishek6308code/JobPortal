@@ -1,7 +1,7 @@
 // src/AdminDashboard.jsx
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://jobportalbackend-kpg7.onrender.com/api';
 
 export default function AdminDashboard() {
   const [jobs, setJobs] = useState([]);
