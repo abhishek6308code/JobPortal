@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import JobApplyModal from './JobApplyModel';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://jobportalbackend-kpg7.onrender.com/api';
 
 export default function HomePage({ viewJobDetails } = {}) {
   const [jobs, setJobs] = useState([]);
