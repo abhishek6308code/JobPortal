@@ -63,7 +63,8 @@ export default function EmployerLogin() {
       }
 
       // redirect to dashboard (adjust route)
-      window.location.href = '/employer/dashboard';
+     // window.location.href = '/employer/dashboard';
+       window.location.hash = 'employer-dashboard';
     } catch (err) {
       console.error('Network/login error', err);
       setError('Network error: ' + err.message);
